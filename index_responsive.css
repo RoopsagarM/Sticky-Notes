@@ -1,0 +1,118 @@
+/* mobile portrait */
+
+@media (min-width:320px) and (max-width:480px){
+    .container{
+        padding: 10px;
+    }
+    .header{
+        height: 60px;
+    }
+    .app_name{
+        font-size: 22px;
+        padding: 0px 10px;
+    }
+    .btn{
+        padding: 5px 20px;
+        font-size: 9px;
+    }
+    .notes{
+        justify-content: center;
+    }
+    .note{
+        width: 93%;
+    }
+    
+}
+
+/* mobile landscape */
+
+@media (min-width:481px) and (max-width:768px){
+    .container{
+        padding: 20px;
+    }
+    .header{
+        height: 70px;
+    }
+    .app_name{
+        font-size: 25px;
+        padding: 0px 10px;
+    }
+    .btn{
+        padding: 8px 25px;
+        font-size: 13px;
+    }
+    .note{
+        width: 45%;
+    }
+    
+}
+
+/* tablet portrait */
+
+@media (min-width:769px) and (max-width:1024px){
+    .container{
+        padding: 30px;
+    }
+    .header{
+        height: 80px;
+    }
+    .app_name{
+        font-size: 25px;
+        padding: 0px 10px;
+    }
+    .btn{
+        padding: 9px 27px;
+        font-size: 14px;
+    }
+    .note{
+        width: 29%;
+    }
+    
+}
+
+/* tabler landscape */
+
+@media (min-width:1024px) and (max-width:1224px){
+    .container{
+        padding: 40px;
+    }
+    .header{
+        height: 60px;
+    }
+    .app_name{
+        font-size: 25px;
+        padding: 0px 10px;
+    }
+    .btn{
+        padding: 10px 30px;
+        font-size: 15px;
+    }
+    .note{
+        width: 21%;
+    }
+    
+}
+
+
+/* small screen laptops */
+
+@media (min-width:1224px) and (max-width:1366px){
+    .container{
+        padding: 50px;
+    }
+    .header{
+        height: 90px;
+    }
+    .app_name{
+        font-size: 28px;
+        padding: 0px 10px;
+    }
+    .btn{
+        padding: 13px 35px;
+        font-size: 17px;
+    }
+    .note{
+        width: 22%;
+    }
+    
+}
